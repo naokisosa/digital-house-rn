@@ -3,9 +3,9 @@ import React from 'react';
 
 interface Props extends NativeTextProps {}
 
-const BaseText = ({ children, ...rest }: Props) => {
+const BaseText = ({ children, style, ...rest }: Props) => {
   return (
-    <NativeText style={styles.baseText} {...rest}>
+    <NativeText style={[styles.base, style]} {...rest}>
       {children}
     </NativeText>
   );
@@ -14,7 +14,7 @@ const BaseText = ({ children, ...rest }: Props) => {
 export default BaseText;
 
 const styles = StyleSheet.create({
-  baseText: {
+  base: {
     fontFamily: 'Avenir',
   },
 });
