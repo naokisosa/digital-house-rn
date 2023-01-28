@@ -1,6 +1,6 @@
-import {RouteProp, useNavigation, useRoute} from '@react-navigation/native';
-import {NativeStackNavigationProp} from '@react-navigation/native-stack';
-import {MainStackParamList} from './types';
+import { RouteProp, useNavigation, useRoute } from '@react-navigation/native';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { MainStackParamList } from './types';
 
 type MainStack = NativeStackNavigationProp<MainStackParamList>;
 

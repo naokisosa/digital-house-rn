@@ -1,5 +1,5 @@
 import React from 'react';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Welcome from '../screens/Welcome/Welcome';
 import ProductDetails from '../screens/ProductDetails/ProductDetails';
 
@@ -11,11 +11,7 @@ enum Screens {
 }
 
 const ProductsStack = [
-  <Stack.Screen
-    key={Screens.Welcome}
-    name={Screens.Welcome}
-    component={Welcome}
-  />,
+  <Stack.Screen key={Screens.Welcome} name={Screens.Welcome} component={Welcome} />,
   <Stack.Screen
     key={Screens.ProductDetails}
     name={Screens.ProductDetails}

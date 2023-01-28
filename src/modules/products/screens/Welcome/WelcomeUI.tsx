@@ -1,10 +1,11 @@
-import {StyleSheet, Text, View} from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import React from 'react';
+import { CustomText } from '@components';
 
 const WelcomeUI = () => {
   return (
     <View>
-      <Text>WelcomeUI</Text>
+      <CustomText>WelcomeUI</CustomText>
     </View>
   );
 };

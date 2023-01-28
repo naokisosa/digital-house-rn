@@ -1,3 +1,3 @@
-import {ProductsFlow} from '../../modules/products/stack/index';
+import { ProductsFlow } from '../../modules/products/stack/index';
 
 export type MainStackParamList = ProductsFlow;
