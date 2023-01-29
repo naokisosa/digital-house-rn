@@ -7,15 +7,20 @@ interface Props {
   children?: React.ReactNode;
   edges?: Edge[];
   style?: ViewStyle;
+  header?: React.ReactNode;
 }
 
 const DEFAULT_EDGES: Edge[] = ['bottom', 'left', 'right', 'top'];
+const HEADER_EDGES: Edge[] = ['bottom', 'left', 'right'];
 
-const ViewContainer = ({ children, edges = DEFAULT_EDGES, style }: Props) => {
+const ViewContainer = ({ children, edges = DEFAULT_EDGES, style, header }: Props) => {
   return (
-    <SafeAreaView style={[styles.container, style]} edges={edges}>
-      {children}
-    </SafeAreaView>
+    <>
+      {header}
+      <SafeAreaView style={[styles.container, style]} edges={header ? HEADER_EDGES : edges}>
+        {children}
+      </SafeAreaView>
+    </>
   );
 };
 
