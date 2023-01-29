@@ -1,8 +1,10 @@
 import { ScrollView, StyleSheet, View } from 'react-native';
-import React, { useCallback } from 'react';
+import React from 'react';
 import { BaseText, Button, Image, ViewContainer } from '@components';
 import { colors } from '@style';
 import { Product } from '@services/types';
+import Header from '@modules/products/components/Header/Header';
+import { formatDate } from '@utils';
 
 interface Props {
   onPressBack: () => void;
@@ -10,16 +12,8 @@ interface Props {
 }
 
 const ProductDetailsUI = ({ onPressBack, product }: Props) => {
-  const Header = useCallback(() => {
-    return (
-      <View style={styles.header}>
-        <BaseText style={styles.title}>{product?.product}</BaseText>
-      </View>
-    );
-  }, [product?.product]);
-
   return (
-    <ViewContainer header={<Header />} style={styles.container}>
+    <ViewContainer header={<Header title={product?.product} />} style={styles.container}>
       <ScrollView
         style={styles.content}
         showsVerticalScrollIndicator={false}
@@ -28,7 +22,9 @@ const ProductDetailsUI = ({ onPressBack, product }: Props) => {
           <Image size="big" source={{ uri: product?.image }} />
         </View>
         <BaseText style={styles.subtitle}>Detalles del producto:</BaseText>
-        <BaseText style={styles.createdAt}>{product?.createdAt}</BaseText>
+        <BaseText style={styles.createdAt}>{`Comprado el ${formatDate(
+          product?.createdAt
+        )}`}</BaseText>
         <BaseText style={styles.subtitle}>Con esta compra acumulaste:</BaseText>
         <BaseText style={styles.points}>{`${product?.points} puntos`}</BaseText>
       </ScrollView>
@@ -40,17 +36,6 @@ const ProductDetailsUI = ({ onPressBack, product }: Props) => {
 export default ProductDetailsUI;
 
 const styles = StyleSheet.create({
-  header: {
-    height: 150,
-    backgroundColor: colors.secondary,
-    justifyContent: 'flex-end',
-    paddingHorizontal: 20,
-  },
-  title: {
-    fontWeight: '800',
-    fontSize: 24,
-    marginBottom: 24,
-  },
   container: {
     paddingTop: 19,
   },

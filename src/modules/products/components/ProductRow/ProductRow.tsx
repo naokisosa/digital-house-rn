@@ -3,6 +3,7 @@ import React, { memo } from 'react';
 import { Product } from '@services/types';
 import { BaseText, Image } from '@components';
 import { colors } from '@style';
+import { formatDate } from '@utils';
 
 interface Props {
   product?: Product;
@@ -17,7 +18,7 @@ const ProductRow = ({ product, onPress }: Props) => {
       <Image source={{ uri: product?.image }} style={styles.image} size="small" />
       <View style={styles.textContainer}>
         <BaseText style={styles.name}>{product?.product}</BaseText>
-        <BaseText style={styles.createdAt}>{product?.createdAt}</BaseText>
+        <BaseText style={styles.createdAt}>{formatDate(product?.createdAt)}</BaseText>
       </View>
       <View>
         <BaseText style={styles.points}>

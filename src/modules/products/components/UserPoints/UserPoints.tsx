@@ -14,7 +14,7 @@ const UserPoints = ({ month, totalPoints = 0 }: Props) => {
       <BaseText style={styles.title}>TUS PUNTOS</BaseText>
       <View style={styles.card}>
         <BaseText style={styles.month}>{month}</BaseText>
-        <BaseText style={styles.totalPoints}>{totalPoints}</BaseText>
+        <BaseText style={styles.totalPoints}>{totalPoints.toLocaleString('en-US')}</BaseText>
       </View>
     </>
   );

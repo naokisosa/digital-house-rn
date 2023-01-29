@@ -4,6 +4,7 @@ import { BaseText, Button, ViewContainer } from '@components';
 import UserPoints from '@modules/products/components/UserPoints/UserPoints';
 import UserMovements from '@modules/products/components/UserMovements/UserMovements';
 import { Product } from '@services/types';
+import { firstLetterUpperCase } from '@utils';
 
 interface Props {
   isShowingAll: boolean;
@@ -24,6 +25,7 @@ const WelcomeUI = ({
   products,
   totalPoints,
 }: Props) => {
+  const month = new Date().toLocaleDateString('es-ES', { month: 'long' });
   const ButtonsRow = useCallback(() => {
     if (isShowingAll) {
       return (
@@ -40,7 +42,7 @@ const WelcomeUI = ({
     <ViewContainer>
       <BaseText style={styles.welcomeBack}>Bienvenido de vuelta!</BaseText>
       <BaseText style={styles.userName}>Ruben Rodriguez</BaseText>
-      <UserPoints month="Diciembre" totalPoints={totalPoints} />
+      <UserPoints month={firstLetterUpperCase(month)} totalPoints={totalPoints} />
       <UserMovements products={products} onPress={onPressProduct} />
       <View style={styles.footer}>
         <ButtonsRow />
