@@ -1,7 +1,8 @@
 import { PRODUCTS_MOCK } from '@mocks';
 import fetchMock from 'jest-fetch-mock';
 import { setupApiStore } from '../../testUtils';
-import { BASE_URL, productApi } from './product';
+import { productApi } from './product';
+import Config from 'react-native-config';
 
 beforeAll((): void => {
   fetchMock.resetMocks();
@@ -19,7 +20,7 @@ describe('Get all products', () => {
         const { method, url } = fetchMock.mock.calls[0][0] as Request;
 
         expect(method).toBe('GET');
-        expect(url).toBe(`${BASE_URL}products`);
+        expect(url).toBe(`${Config.BASE_URL}products`);
       });
   });
 

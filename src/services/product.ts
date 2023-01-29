@@ -1,12 +1,11 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { Product } from './types';
-
-export const BASE_URL = 'https://6222994f666291106a29f999.mockapi.io/api/v1/';
+import Config from 'react-native-config';
 
 export const productApi = createApi({
   reducerPath: 'productApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: BASE_URL,
+    baseUrl: Config.BASE_URL,
   }),
   endpoints: (builder) => ({
     getAllProducts: builder.query<Product[], void>({
