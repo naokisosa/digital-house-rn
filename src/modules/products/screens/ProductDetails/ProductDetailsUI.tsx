@@ -18,7 +18,7 @@ const ProductDetailsUI = ({ onPressBack, product }: Props) => {
         style={styles.content}
         showsVerticalScrollIndicator={false}
         alwaysBounceVertical={false}>
-        <View style={styles.card}>
+        <View style={[styles.card, styles.shadow]}>
           <Image size="big" source={{ uri: product?.image }} />
         </View>
         <BaseText style={styles.subtitle}>Detalles del producto:</BaseText>
@@ -57,6 +57,17 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: '800',
     marginTop: 13,
+  },
+  shadow: {
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.5,
+    shadowRadius: 4,
+
+    elevation: 2,
   },
   card: {
     backgroundColor: colors.white,

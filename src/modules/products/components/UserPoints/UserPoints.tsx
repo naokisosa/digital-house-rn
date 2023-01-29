@@ -12,9 +12,11 @@ const UserPoints = ({ month, totalPoints = 0 }: Props) => {
   return (
     <>
       <BaseText style={styles.title}>TUS PUNTOS</BaseText>
-      <View style={styles.card}>
+      <View style={[styles.card, styles.shadow]}>
         <BaseText style={styles.month}>{month}</BaseText>
-        <BaseText style={styles.totalPoints}>{totalPoints.toLocaleString('en-US')}</BaseText>
+        <BaseText style={styles.totalPoints}>{`${totalPoints.toLocaleString(
+          'en-US'
+        )} pts`}</BaseText>
       </View>
     </>
   );
@@ -37,6 +39,17 @@ const styles = StyleSheet.create({
     paddingVertical: 21,
     height: 143,
     marginHorizontal: 34,
+  },
+  shadow: {
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.5,
+    shadowRadius: 4,
+
+    elevation: 19,
   },
   month: {
     fontWeight: '800',
