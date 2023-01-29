@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Header component renders correctly with title 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#CFD6FF",
+      "height": 150,
+      "justifyContent": "flex-end",
+      "paddingHorizontal": 20,
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "fontSize": 24,
+          "fontWeight": "800",
+          "marginBottom": 24,
+        },
+      ]
+    }
+  >
+    Recycled Wooden Salad
+  </Text>
+</View>
+`;

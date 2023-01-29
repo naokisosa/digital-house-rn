@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Image component renders correctly when providing external uri 1`] = `
+<View
+  style={
+    [
+      {
+        "overflow": "hidden",
+      },
+      [
+        {
+          "height": 200,
+          "width": 200,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <FastImageView
+    defaultSource={
+      {
+        "testUri": "../../../src/assets/placeholder.png",
+      }
+    }
+    resizeMode="cover"
+    source={
+      {
+        "uri": "https://loremflickr.com/640/480/city",
+      }
+    }
+    style={
+      {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Test Image component renders correctly with default values 1`] = `
+<View
+  style={
+    [
+      {
+        "overflow": "hidden",
+      },
+      [
+        {
+          "height": 200,
+          "width": 200,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <FastImageView
+    defaultSource={
+      {
+        "testUri": "../../../src/assets/placeholder.png",
+      }
+    }
+    resizeMode="cover"
+    source={
+      {
+        "testUri": "../../../src/assets/placeholder.png",
+      }
+    }
+    style={
+      {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Test Image component renders correctly with size="big" 1`] = `
+<View
+  style={
+    [
+      {
+        "overflow": "hidden",
+      },
+      [
+        {
+          "height": 200,
+          "width": 200,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <FastImageView
+    defaultSource={
+      {
+        "testUri": "../../../src/assets/placeholder.png",
+      }
+    }
+    resizeMode="cover"
+    source={
+      {
+        "testUri": "../../../src/assets/placeholder.png",
+      }
+    }
+    style={
+      {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Test Image component renders correctly with size="small" 1`] = `
+<View
+  style={
+    [
+      {
+        "overflow": "hidden",
+      },
+      [
+        {
+          "height": 55,
+          "width": 55,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <FastImageView
+    defaultSource={
+      {
+        "testUri": "../../../src/assets/placeholder.png",
+      }
+    }
+    resizeMode="cover"
+    source={
+      {
+        "testUri": "../../../src/assets/placeholder.png",
+      }
+    }
+    style={
+      {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />
+</View>
+`;

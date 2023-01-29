@@ -1,0 +1,4707 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Welcome screen renders correctly with loading prop 1`] = `
+<RNCSafeAreaView
+  edges={
+    [
+      "bottom",
+      "left",
+      "right",
+      "top",
+    ]
+  }
+  style={
+    [
+      {
+        "backgroundColor": "#F8F8F8",
+        "flex": 1,
+        "paddingBottom": 6,
+        "paddingHorizontal": 20,
+        "paddingTop": 11,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "fontSize": 20,
+          "fontWeight": "800",
+          "lineHeight": 27.32,
+        },
+      ]
+    }
+  >
+    Bienvenido de vuelta!
+  </Text>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "fontSize": 16,
+          "fontWeight": "400",
+          "lineHeight": 21.86,
+        },
+      ]
+    }
+  >
+    Ruben Rodriguez
+  </Text>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "color": "#9B9898",
+          "fontSize": 14,
+          "fontWeight": "800",
+          "lineHeight": 19.12,
+          "marginVertical": 20,
+        },
+      ]
+    }
+  >
+    TUS PUNTOS
+  </Text>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#334FFA",
+          "borderRadius": 20,
+          "height": 143,
+          "marginHorizontal": 34,
+          "paddingHorizontal": 19,
+          "paddingVertical": 21,
+        },
+        {
+          "elevation": 19,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.5,
+          "shadowRadius": 4,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <ActivityIndicator />
+    </View>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "color": "#9B9898",
+          "fontSize": 14,
+          "fontWeight": "800",
+          "lineHeight": 19.12,
+          "marginVertical": 20,
+        },
+      ]
+    }
+  >
+    TUS MOVIMIENTOS
+  </Text>
+  <View
+    style={
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 10,
+        "flex": 1,
+        "paddingLeft": 10,
+        "paddingRight": 7.56,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <ActivityIndicator />
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginHorizontal": -6.5,
+        "marginTop": 43,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#334FFA",
+          "borderRadius": 10,
+          "flex": 1,
+          "height": 50,
+          "justifyContent": "center",
+          "marginHorizontal": 6.5,
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#000000",
+              "fontFamily": "Avenir",
+            },
+            {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "fontWeight": "800",
+              "lineHeight": 21.86,
+            },
+          ]
+        }
+      >
+        Ganados
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#334FFA",
+          "borderRadius": 10,
+          "flex": 1,
+          "height": 50,
+          "justifyContent": "center",
+          "marginHorizontal": 6.5,
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#000000",
+              "fontFamily": "Avenir",
+            },
+            {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "fontWeight": "800",
+              "lineHeight": 21.86,
+            },
+          ]
+        }
+      >
+        Canjeados
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;
+
+exports[`Test Welcome screen renders correctly with products and totalPoints prop 1`] = `
+<RNCSafeAreaView
+  edges={
+    [
+      "bottom",
+      "left",
+      "right",
+      "top",
+    ]
+  }
+  style={
+    [
+      {
+        "backgroundColor": "#F8F8F8",
+        "flex": 1,
+        "paddingBottom": 6,
+        "paddingHorizontal": 20,
+        "paddingTop": 11,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "fontSize": 20,
+          "fontWeight": "800",
+          "lineHeight": 27.32,
+        },
+      ]
+    }
+  >
+    Bienvenido de vuelta!
+  </Text>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "fontSize": 16,
+          "fontWeight": "400",
+          "lineHeight": 21.86,
+        },
+      ]
+    }
+  >
+    Ruben Rodriguez
+  </Text>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "color": "#9B9898",
+          "fontSize": 14,
+          "fontWeight": "800",
+          "lineHeight": 19.12,
+          "marginVertical": 20,
+        },
+      ]
+    }
+  >
+    TUS PUNTOS
+  </Text>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#334FFA",
+          "borderRadius": 20,
+          "height": 143,
+          "marginHorizontal": 34,
+          "paddingHorizontal": 19,
+          "paddingVertical": 21,
+        },
+        {
+          "elevation": 19,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.5,
+          "shadowRadius": 4,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#000000",
+            "fontFamily": "Avenir",
+          },
+          {
+            "color": "#FFFFFF",
+            "fontSize": 16,
+            "fontWeight": "800",
+            "lineHeight": 21.86,
+          },
+        ]
+      }
+    >
+      Enero
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "color": "#000000",
+            "fontFamily": "Avenir",
+          },
+          {
+            "color": "#FFFFFF",
+            "fontSize": 32,
+            "fontWeight": "800",
+            "lineHeight": 43.71,
+            "marginTop": 7,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      10,000 pts
+    </Text>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "color": "#9B9898",
+          "fontSize": 14,
+          "fontWeight": "800",
+          "lineHeight": 19.12,
+          "marginVertical": 20,
+        },
+      ]
+    }
+  >
+    TUS MOVIMIENTOS
+  </Text>
+  <View
+    style={
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 10,
+        "flex": 1,
+        "paddingLeft": 10,
+        "paddingRight": 7.56,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "marginVertical": -4,
+        }
+      }
+      data={
+        [
+          {
+            "createdAt": "2022-12-09T06:34:25.607Z",
+            "id": "1",
+            "image": "https://loremflickr.com/640/480/transport",
+            "is_redemption": false,
+            "points": 16434,
+            "product": "Handmade Metal Shoes",
+          },
+          {
+            "createdAt": "2022-12-09T17:02:51.904Z",
+            "id": "2",
+            "image": "https://loremflickr.com/640/480/technics",
+            "is_redemption": false,
+            "points": 92984,
+            "product": "Recycled Plastic Tuna",
+          },
+          {
+            "createdAt": "2022-12-09T10:20:00.909Z",
+            "id": "3",
+            "image": "https://loremflickr.com/640/480/technics",
+            "is_redemption": false,
+            "points": 42416,
+            "product": "Fantastic Granite Bacon",
+          },
+          {
+            "createdAt": "2022-12-09T00:30:23.966Z",
+            "id": "4",
+            "image": "https://loremflickr.com/640/480/city",
+            "is_redemption": true,
+            "points": 23913,
+            "product": "Fantastic Fresh Gloves",
+          },
+          {
+            "createdAt": "2022-12-08T18:54:56.243Z",
+            "id": "5",
+            "image": "https://loremflickr.com/640/480/people",
+            "is_redemption": true,
+            "points": 69814,
+            "product": "Rustic Rubber Bacon",
+          },
+          {
+            "createdAt": "2022-12-09T14:12:11.097Z",
+            "id": "6",
+            "image": "https://loremflickr.com/640/480/business",
+            "is_redemption": false,
+            "points": 81585,
+            "product": "Tasty Concrete Cheese",
+          },
+          {
+            "createdAt": "2022-12-09T12:50:53.209Z",
+            "id": "7",
+            "image": "https://loremflickr.com/640/480/nightlife",
+            "is_redemption": false,
+            "points": 88323,
+            "product": "Oriental Cotton Keyboard",
+          },
+          {
+            "createdAt": "2022-12-08T20:32:14.169Z",
+            "id": "8",
+            "image": "https://loremflickr.com/640/480/animals",
+            "is_redemption": true,
+            "points": 87794,
+            "product": "Oriental Soft Pants",
+          },
+          {
+            "createdAt": "2022-12-09T05:46:47.645Z",
+            "id": "9",
+            "image": "https://loremflickr.com/640/480/food",
+            "is_redemption": true,
+            "points": 13063,
+            "product": "Luxurious Rubber Bacon",
+          },
+          {
+            "createdAt": "2022-12-09T10:56:34.206Z",
+            "id": "10",
+            "image": "https://loremflickr.com/640/480/transport",
+            "is_redemption": false,
+            "points": 91311,
+            "product": "Elegant Rubber Fish",
+          },
+          {
+            "createdAt": "2022-12-09T12:36:43.169Z",
+            "id": "11",
+            "image": "https://loremflickr.com/640/480/city",
+            "is_redemption": false,
+            "points": 44871,
+            "product": "Recycled Wooden Salad",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      showsVerticalScrollIndicator={false}
+      stickyHeaderIndices={[]}
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/transport",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Handmade Metal Shoes
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                9 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#FF0000",
+                      },
+                    ]
+                  }
+                >
+                  -
+                </Text>
+                16434
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/technics",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Recycled Plastic Tuna
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                9 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#FF0000",
+                      },
+                    ]
+                  }
+                >
+                  -
+                </Text>
+                92984
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/technics",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Fantastic Granite Bacon
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                9 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#FF0000",
+                      },
+                    ]
+                  }
+                >
+                  -
+                </Text>
+                42416
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/city",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Fantastic Fresh Gloves
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                8 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#00B833",
+                      },
+                    ]
+                  }
+                >
+                  +
+                </Text>
+                23913
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/people",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Rustic Rubber Bacon
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                8 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#00B833",
+                      },
+                    ]
+                  }
+                >
+                  +
+                </Text>
+                69814
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/business",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Tasty Concrete Cheese
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                9 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#FF0000",
+                      },
+                    ]
+                  }
+                >
+                  -
+                </Text>
+                81585
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/nightlife",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Oriental Cotton Keyboard
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                9 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#FF0000",
+                      },
+                    ]
+                  }
+                >
+                  -
+                </Text>
+                88323
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/animals",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Oriental Soft Pants
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                8 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#00B833",
+                      },
+                    ]
+                  }
+                >
+                  +
+                </Text>
+                87794
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/food",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Luxurious Rubber Bacon
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                9 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#00B833",
+                      },
+                    ]
+                  }
+                >
+                  +
+                </Text>
+                13063
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/transport",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Elegant Rubber Fish
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                9 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#FF0000",
+                      },
+                    ]
+                  }
+                >
+                  -
+                </Text>
+                91311
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "height": 0,
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginHorizontal": -6.5,
+        "marginTop": 43,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#334FFA",
+          "borderRadius": 10,
+          "flex": 1,
+          "height": 50,
+          "justifyContent": "center",
+          "marginHorizontal": 6.5,
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#000000",
+              "fontFamily": "Avenir",
+            },
+            {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "fontWeight": "800",
+              "lineHeight": 21.86,
+            },
+          ]
+        }
+      >
+        Ganados
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#334FFA",
+          "borderRadius": 10,
+          "flex": 1,
+          "height": 50,
+          "justifyContent": "center",
+          "marginHorizontal": 6.5,
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#000000",
+              "fontFamily": "Avenir",
+            },
+            {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "fontWeight": "800",
+              "lineHeight": 21.86,
+            },
+          ]
+        }
+      >
+        Canjeados
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;
+
+exports[`Test Welcome screen renders correctly with products, totalPoints and isShowingAll prop 1`] = `
+<RNCSafeAreaView
+  edges={
+    [
+      "bottom",
+      "left",
+      "right",
+      "top",
+    ]
+  }
+  style={
+    [
+      {
+        "backgroundColor": "#F8F8F8",
+        "flex": 1,
+        "paddingBottom": 6,
+        "paddingHorizontal": 20,
+        "paddingTop": 11,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "fontSize": 20,
+          "fontWeight": "800",
+          "lineHeight": 27.32,
+        },
+      ]
+    }
+  >
+    Bienvenido de vuelta!
+  </Text>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "fontSize": 16,
+          "fontWeight": "400",
+          "lineHeight": 21.86,
+        },
+      ]
+    }
+  >
+    Ruben Rodriguez
+  </Text>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "color": "#9B9898",
+          "fontSize": 14,
+          "fontWeight": "800",
+          "lineHeight": 19.12,
+          "marginVertical": 20,
+        },
+      ]
+    }
+  >
+    TUS PUNTOS
+  </Text>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#334FFA",
+          "borderRadius": 20,
+          "height": 143,
+          "marginHorizontal": 34,
+          "paddingHorizontal": 19,
+          "paddingVertical": 21,
+        },
+        {
+          "elevation": 19,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.5,
+          "shadowRadius": 4,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#000000",
+            "fontFamily": "Avenir",
+          },
+          {
+            "color": "#FFFFFF",
+            "fontSize": 16,
+            "fontWeight": "800",
+            "lineHeight": 21.86,
+          },
+        ]
+      }
+    >
+      Enero
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "color": "#000000",
+            "fontFamily": "Avenir",
+          },
+          {
+            "color": "#FFFFFF",
+            "fontSize": 32,
+            "fontWeight": "800",
+            "lineHeight": 43.71,
+            "marginTop": 7,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      10,000 pts
+    </Text>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "color": "#9B9898",
+          "fontSize": 14,
+          "fontWeight": "800",
+          "lineHeight": 19.12,
+          "marginVertical": 20,
+        },
+      ]
+    }
+  >
+    TUS MOVIMIENTOS
+  </Text>
+  <View
+    style={
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 10,
+        "flex": 1,
+        "paddingLeft": 10,
+        "paddingRight": 7.56,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "marginVertical": -4,
+        }
+      }
+      data={
+        [
+          {
+            "createdAt": "2022-12-09T06:34:25.607Z",
+            "id": "1",
+            "image": "https://loremflickr.com/640/480/transport",
+            "is_redemption": false,
+            "points": 16434,
+            "product": "Handmade Metal Shoes",
+          },
+          {
+            "createdAt": "2022-12-09T17:02:51.904Z",
+            "id": "2",
+            "image": "https://loremflickr.com/640/480/technics",
+            "is_redemption": false,
+            "points": 92984,
+            "product": "Recycled Plastic Tuna",
+          },
+          {
+            "createdAt": "2022-12-09T10:20:00.909Z",
+            "id": "3",
+            "image": "https://loremflickr.com/640/480/technics",
+            "is_redemption": false,
+            "points": 42416,
+            "product": "Fantastic Granite Bacon",
+          },
+          {
+            "createdAt": "2022-12-09T00:30:23.966Z",
+            "id": "4",
+            "image": "https://loremflickr.com/640/480/city",
+            "is_redemption": true,
+            "points": 23913,
+            "product": "Fantastic Fresh Gloves",
+          },
+          {
+            "createdAt": "2022-12-08T18:54:56.243Z",
+            "id": "5",
+            "image": "https://loremflickr.com/640/480/people",
+            "is_redemption": true,
+            "points": 69814,
+            "product": "Rustic Rubber Bacon",
+          },
+          {
+            "createdAt": "2022-12-09T14:12:11.097Z",
+            "id": "6",
+            "image": "https://loremflickr.com/640/480/business",
+            "is_redemption": false,
+            "points": 81585,
+            "product": "Tasty Concrete Cheese",
+          },
+          {
+            "createdAt": "2022-12-09T12:50:53.209Z",
+            "id": "7",
+            "image": "https://loremflickr.com/640/480/nightlife",
+            "is_redemption": false,
+            "points": 88323,
+            "product": "Oriental Cotton Keyboard",
+          },
+          {
+            "createdAt": "2022-12-08T20:32:14.169Z",
+            "id": "8",
+            "image": "https://loremflickr.com/640/480/animals",
+            "is_redemption": true,
+            "points": 87794,
+            "product": "Oriental Soft Pants",
+          },
+          {
+            "createdAt": "2022-12-09T05:46:47.645Z",
+            "id": "9",
+            "image": "https://loremflickr.com/640/480/food",
+            "is_redemption": true,
+            "points": 13063,
+            "product": "Luxurious Rubber Bacon",
+          },
+          {
+            "createdAt": "2022-12-09T10:56:34.206Z",
+            "id": "10",
+            "image": "https://loremflickr.com/640/480/transport",
+            "is_redemption": false,
+            "points": 91311,
+            "product": "Elegant Rubber Fish",
+          },
+          {
+            "createdAt": "2022-12-09T12:36:43.169Z",
+            "id": "11",
+            "image": "https://loremflickr.com/640/480/city",
+            "is_redemption": false,
+            "points": 44871,
+            "product": "Recycled Wooden Salad",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      showsVerticalScrollIndicator={false}
+      stickyHeaderIndices={[]}
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/transport",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Handmade Metal Shoes
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                9 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#FF0000",
+                      },
+                    ]
+                  }
+                >
+                  -
+                </Text>
+                16434
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/technics",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Recycled Plastic Tuna
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                9 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#FF0000",
+                      },
+                    ]
+                  }
+                >
+                  -
+                </Text>
+                92984
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/technics",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Fantastic Granite Bacon
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                9 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#FF0000",
+                      },
+                    ]
+                  }
+                >
+                  -
+                </Text>
+                42416
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/city",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Fantastic Fresh Gloves
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                8 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#00B833",
+                      },
+                    ]
+                  }
+                >
+                  +
+                </Text>
+                23913
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/people",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Rustic Rubber Bacon
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                8 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#00B833",
+                      },
+                    ]
+                  }
+                >
+                  +
+                </Text>
+                69814
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/business",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Tasty Concrete Cheese
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                9 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#FF0000",
+                      },
+                    ]
+                  }
+                >
+                  -
+                </Text>
+                81585
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/nightlife",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Oriental Cotton Keyboard
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                9 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#FF0000",
+                      },
+                    ]
+                  }
+                >
+                  -
+                </Text>
+                88323
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/animals",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Oriental Soft Pants
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                8 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#00B833",
+                      },
+                    ]
+                  }
+                >
+                  +
+                </Text>
+                87794
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/food",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Luxurious Rubber Bacon
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                9 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#00B833",
+                      },
+                    ]
+                  }
+                >
+                  +
+                </Text>
+                13063
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginVertical": 4,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  [
+                    {
+                      "height": 55,
+                      "width": 55,
+                    },
+                    {
+                      "borderRadius": 10,
+                    },
+                  ],
+                ]
+              }
+            >
+              <FastImageView
+                defaultSource={
+                  {
+                    "testUri": "../../../src/assets/placeholder.png",
+                  }
+                }
+                resizeMode="cover"
+                source={
+                  {
+                    "uri": "https://loremflickr.com/640/480/transport",
+                  }
+                }
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 11,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 14,
+                      "fontWeight": "800",
+                      "lineHeight": 19.12,
+                      "marginBottom": 7,
+                    },
+                  ]
+                }
+              >
+                Elegant Rubber Fish
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16.39,
+                    },
+                  ]
+                }
+              >
+                9 de diciembre, 2022
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                      "fontFamily": "Avenir",
+                    },
+                    {
+                      "fontSize": 16,
+                      "fontWeight": "800",
+                      "lineHeight": 21.86,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontFamily": "Avenir",
+                      },
+                      {
+                        "color": "#FF0000",
+                      },
+                    ]
+                  }
+                >
+                  -
+                </Text>
+                91311
+              </Text>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                    "fontFamily": "Avenir",
+                  },
+                  {
+                    "fontSize": 13,
+                    "fontWeight": "800",
+                    "marginLeft": 17,
+                  },
+                ]
+              }
+            >
+              &gt;
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "height": 0,
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginHorizontal": -6.5,
+        "marginTop": 43,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#334FFA",
+          "borderRadius": 10,
+          "flex": 1,
+          "height": 50,
+          "justifyContent": "center",
+          "marginHorizontal": 6.5,
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#000000",
+              "fontFamily": "Avenir",
+            },
+            {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "fontWeight": "800",
+              "lineHeight": 21.86,
+            },
+          ]
+        }
+      >
+        Todos
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

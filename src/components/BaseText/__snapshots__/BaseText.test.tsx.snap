@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test BaseText component renders correctly 1`] = `
+<Text
+  style={
+    [
+      {
+        "color": "#000000",
+        "fontFamily": "Avenir",
+      },
+      undefined,
+    ]
+  }
+>
+  Mock
+</Text>
+`;

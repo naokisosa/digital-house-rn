@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ViewContainer component renders correctly with children 1`] = `
+<RNCSafeAreaView
+  edges={
+    [
+      "bottom",
+      "left",
+      "right",
+      "top",
+    ]
+  }
+  style={
+    [
+      {
+        "backgroundColor": "#F8F8F8",
+        "flex": 1,
+        "paddingBottom": 6,
+        "paddingHorizontal": 20,
+        "paddingTop": 11,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text>
+    Mock
+  </Text>
+</RNCSafeAreaView>
+`;
+
+exports[`Test ViewContainer component renders correctly with children and header 1`] = `
+[
+  <Text>
+    Header
+  </Text>,
+  <RNCSafeAreaView
+    edges={
+      [
+        "bottom",
+        "left",
+        "right",
+      ]
+    }
+    style={
+      [
+        {
+          "backgroundColor": "#F8F8F8",
+          "flex": 1,
+          "paddingBottom": 6,
+          "paddingHorizontal": 20,
+          "paddingTop": 11,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text>
+      Mock
+    </Text>
+  </RNCSafeAreaView>,
+]
+`;

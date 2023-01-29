@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Button component renders correctly with disabled 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#334FFA",
+      "borderRadius": 10,
+      "height": 50,
+      "justifyContent": "center",
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "color": "#FFFFFF",
+          "fontSize": 16,
+          "fontWeight": "800",
+          "lineHeight": 21.86,
+        },
+      ]
+    }
+  >
+    Mock
+  </Text>
+</View>
+`;
+
+exports[`Test Button component renders correctly with title 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#334FFA",
+      "borderRadius": 10,
+      "height": 50,
+      "justifyContent": "center",
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+        },
+        {
+          "color": "#FFFFFF",
+          "fontSize": 16,
+          "fontWeight": "800",
+          "lineHeight": 21.86,
+        },
+      ]
+    }
+  >
+    Mock
+  </Text>
+</View>
+`;
