@@ -1,10 +1,8 @@
-import { Image, ScrollView, StyleSheet, View } from 'react-native';
+import { ScrollView, StyleSheet, View } from 'react-native';
 import React, { useCallback } from 'react';
-import { BaseText, Button, ViewContainer } from '@components';
+import { BaseText, Button, Image, ViewContainer } from '@components';
 import { colors } from '@style';
 import { Product } from '@services/types';
-
-const IMAGE_SIZE = 200;
 
 interface Props {
   onPressBack: () => void;
@@ -27,7 +25,7 @@ const ProductDetailsUI = ({ onPressBack, product }: Props) => {
         showsVerticalScrollIndicator={false}
         alwaysBounceVertical={false}>
         <View style={styles.card}>
-          <Image source={{ uri: product?.image }} style={styles.image} />
+          <Image size="big" source={{ uri: product?.image }} />
         </View>
         <BaseText style={styles.subtitle}>Detalles del producto:</BaseText>
         <BaseText style={styles.createdAt}>{product?.createdAt}</BaseText>
@@ -55,10 +53,6 @@ const styles = StyleSheet.create({
   },
   container: {
     paddingTop: 19,
-  },
-  image: {
-    height: IMAGE_SIZE,
-    width: IMAGE_SIZE,
   },
   content: {
     flex: 1,

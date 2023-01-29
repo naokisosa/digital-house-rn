@@ -1,7 +1,7 @@
-import { Image, Pressable, StyleSheet, View } from 'react-native';
+import { Pressable, StyleSheet, View } from 'react-native';
 import React, { memo } from 'react';
 import { Product } from '@services/types';
-import { BaseText } from '@components';
+import { BaseText, Image } from '@components';
 import { colors } from '@style';
 
 interface Props {
@@ -9,14 +9,12 @@ interface Props {
   onPress: () => void;
 }
 
-const IMAGE_SIZE = 55;
-
 const ProductRow = ({ product, onPress }: Props) => {
   const symbol = product?.is_redemption ? '+' : '-';
 
   return (
     <Pressable style={styles.container} onPress={onPress}>
-      <Image source={{ uri: product?.image }} style={styles.image} />
+      <Image source={{ uri: product?.image }} style={styles.image} size="small" />
       <View style={styles.textContainer}>
         <BaseText style={styles.name}>{product?.product}</BaseText>
         <BaseText style={styles.createdAt}>{product?.createdAt}</BaseText>
@@ -40,8 +38,6 @@ const styles = StyleSheet.create<any>({
     marginVertical: 4,
   },
   image: {
-    width: IMAGE_SIZE,
-    height: IMAGE_SIZE,
     borderRadius: 10,
   },
   textContainer: {
