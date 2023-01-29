@@ -21,7 +21,9 @@ const ProductsStack = [
 
 export type ProductsFlow = {
   Welcome: undefined;
-  ProductDetails: undefined;
+  ProductDetails: {
+    id: string;
+  };
 };
 
 export default ProductsStack;
