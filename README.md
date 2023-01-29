@@ -10,31 +10,37 @@
 git clone git@github.com:naokisosa/digital-house-rn.git
 ```
 
-2. Install Yarn packages
+2. Change Node version
+
+```sh
+nvm use
+```
+
+3. Install Yarn packages
 
 ```sh
 yarn
 ```
 
-3. Copy environment variables
+4. Copy environment variables
 
 ```sh
-mv .env.example .env
+cp .env.example .env
 ```
 
-4. Install CocoaPods packages
+5. Install CocoaPods packages
 
 ```sh
 npx pod-install
 ```
 
-5. Run Metro Server
+6. Run Metro Server
 
 ```sh
 yarn start
 ```
 
-6. Run on iPhone 14 Pro simulator
+7. Run on iPhone 14 Pro simulator
 
 ```sh
 yarn run ios --simulator='iPhone 14 Pro'
