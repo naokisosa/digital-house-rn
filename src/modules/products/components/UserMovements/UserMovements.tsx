@@ -7,16 +7,20 @@ import { Product } from '@services/types';
 
 interface Props {
   products?: Product[];
+  onPress: (id: string) => void;
 }
 
-const UserMovements = ({ products }: Props) => {
+const UserMovements = ({ products, onPress }: Props) => {
   const keyExtractor = useCallback((item: Product) => {
     return item.id + item.createdAt;
   }, []);
 
-  const renderItem = useCallback(({ item }: { item: Product }) => {
-    return <ProductRow product={item} />;
-  }, []);
+  const renderItem = useCallback(
+    ({ item }: { item: Product }) => {
+      return <ProductRow product={item} onPress={() => onPress(item.id)} />;
+    },
+    [onPress]
+  );
 
   return (
     <>
