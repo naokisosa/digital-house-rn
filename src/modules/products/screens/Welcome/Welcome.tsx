@@ -1,9 +1,11 @@
 import React, { useCallback } from 'react';
 import WelcomeUI from './WelcomeUI';
 import { useProductList } from '../../hooks/useProductList';
+import { useMainNavigation } from '../../../../navigation/stacks/hooks';
 
 const Welcome = () => {
-  console.log('!!!');
+  const navigation = useMainNavigation();
+
   const {
     productsList,
     showAllProducts,
@@ -24,14 +26,22 @@ const Welcome = () => {
     showAllProducts();
   }, [showAllProducts]);
 
+  const handlePressProduct = useCallback(
+    (id: string) => {
+      navigation.navigate('ProductDetails', { id });
+    },
+    [navigation]
+  );
+
   return (
     <WelcomeUI
+      isShowingAll={productsList?.isShowingAll}
+      onPressAll={handlePressAll}
+      onPressProduct={handlePressProduct}
       onPressSwapped={handlePressSwapped}
       onPressWon={handlePressWon}
       products={productsList?.list}
       totalPoints={totalPoints}
-      isShowingAll={productsList?.isShowingAll}
-      onPressAll={handlePressAll}
     />
   );
 };

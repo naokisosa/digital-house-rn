@@ -6,21 +6,23 @@ import UserMovements from '@modules/products/components/UserMovements/UserMoveme
 import { Product } from '@services/types';
 
 interface Props {
+  isShowingAll: boolean;
+  onPressAll: () => void;
+  onPressProduct: (id: string) => void;
   onPressSwapped: () => void;
   onPressWon: () => void;
   products?: Product[];
   totalPoints?: number;
-  isShowingAll: boolean;
-  onPressAll: () => void;
 }
 
 const WelcomeUI = ({
-  products,
-  totalPoints,
-  onPressSwapped,
-  onPressWon,
   isShowingAll,
   onPressAll,
+  onPressProduct,
+  onPressSwapped,
+  onPressWon,
+  products,
+  totalPoints,
 }: Props) => {
   const ButtonsRow = useCallback(() => {
     if (isShowingAll) {
@@ -39,7 +41,7 @@ const WelcomeUI = ({
       <BaseText style={styles.welcomeBack}>Bienvenido de vuelta!</BaseText>
       <BaseText style={styles.userName}>Ruben Rodriguez</BaseText>
       <UserPoints month="Diciembre" totalPoints={totalPoints} />
-      <UserMovements products={products} />
+      <UserMovements products={products} onPress={onPressProduct} />
       <View style={styles.footer}>
         <ButtonsRow />
       </View>
@@ -67,5 +69,6 @@ const styles = StyleSheet.create({
   },
   button: {
     marginHorizontal: 6.5,
+    flex: 1,
   },
 });
