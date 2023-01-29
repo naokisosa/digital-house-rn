@@ -25,6 +25,8 @@ const ProductRow = ({ product, onPress }: Props) => {
           {product?.points}
         </BaseText>
       </View>
+
+      <BaseText style={styles.icon}>{'>'}</BaseText>
     </Pressable>
   );
 };
@@ -63,4 +65,9 @@ const styles = StyleSheet.create<any>({
   symbol: (isRedemption: boolean) => ({
     color: isRedemption ? colors.green : colors.red,
   }),
+  icon: {
+    fontSize: 13,
+    fontWeight: '800',
+    marginLeft: 17,
+  },
 });
