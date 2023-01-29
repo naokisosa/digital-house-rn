@@ -6,7 +6,10 @@ import { useMainNavigation } from '../../../../navigation/stacks/hooks';
 const Welcome = () => {
   const navigation = useMainNavigation();
 
+  const month = new Date().toLocaleDateString('es-ES', { month: 'long' });
+
   const {
+    isLoading,
     productsList,
     showAllProducts,
     showNotRedeemedProducts,
@@ -35,7 +38,9 @@ const Welcome = () => {
 
   return (
     <WelcomeUI
+      isLoading={isLoading}
       isShowingAll={productsList?.isShowingAll}
+      month={month}
       onPressAll={handlePressAll}
       onPressProduct={handlePressProduct}
       onPressSwapped={handlePressSwapped}

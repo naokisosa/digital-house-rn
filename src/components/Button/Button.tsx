@@ -7,11 +7,12 @@ interface Props {
   title: string;
   onPress: () => void;
   style?: ViewStyle;
+  disabled?: boolean;
 }
 
-const Button = ({ onPress, title, style }: Props) => {
+const Button = ({ onPress, title, style, disabled = false }: Props) => {
   return (
-    <TouchableOpacity style={[styles.container, style]} onPress={onPress}>
+    <TouchableOpacity style={[styles.container, style]} onPress={onPress} disabled={disabled}>
       <BaseText style={styles.title}>{title}</BaseText>
     </TouchableOpacity>
   );

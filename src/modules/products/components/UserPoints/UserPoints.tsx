@@ -1,22 +1,34 @@
 import { StyleSheet, View } from 'react-native';
-import React, { memo } from 'react';
-import { BaseText } from '@components';
+import React, { memo, useCallback } from 'react';
+import { BaseText, Loader } from '@components';
 import { colors } from '@style';
 
 interface Props {
   month: string;
   totalPoints?: number;
+  isLoading?: boolean;
 }
 
-const UserPoints = ({ month, totalPoints = 0 }: Props) => {
-  return (
-    <>
-      <BaseText style={styles.title}>TUS PUNTOS</BaseText>
-      <View style={[styles.card, styles.shadow]}>
+const UserPoints = ({ month, totalPoints = 0, isLoading = false }: Props) => {
+  const Content = useCallback(() => {
+    if (isLoading) {
+      return <Loader />;
+    }
+    return (
+      <>
         <BaseText style={styles.month}>{month}</BaseText>
         <BaseText style={styles.totalPoints}>{`${totalPoints.toLocaleString(
           'en-US'
         )} pts`}</BaseText>
+      </>
+    );
+  }, [isLoading, month, totalPoints]);
+
+  return (
+    <>
+      <BaseText style={styles.title}>TUS PUNTOS</BaseText>
+      <View style={[styles.card, styles.shadow]}>
+        <Content />
       </View>
     </>
   );

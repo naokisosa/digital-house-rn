@@ -1,4 +1,4 @@
-import { FlatList, StyleSheet, View } from 'react-native';
+import { ActivityIndicator, FlatList, StyleSheet, View } from 'react-native';
 import React, { memo, useCallback } from 'react';
 import { colors } from '@style';
 import { BaseText } from '@components';
@@ -8,9 +8,10 @@ import { Product } from '@services/types';
 interface Props {
   products?: Product[];
   onPress: (id: string) => void;
+  isLoading?: boolean;
 }
 
-const UserMovements = ({ products, onPress }: Props) => {
+const UserMovements = ({ products, onPress, isLoading }: Props) => {
   const keyExtractor = useCallback((item: Product) => {
     return item.id + item.createdAt;
   }, []);
@@ -22,17 +23,30 @@ const UserMovements = ({ products, onPress }: Props) => {
     [onPress]
   );
 
+  const Content = useCallback(() => {
+    if (isLoading) {
+      return (
+        <View style={styles.loading}>
+          <ActivityIndicator />
+        </View>
+      );
+    }
+    return (
+      <FlatList
+        data={products}
+        renderItem={renderItem}
+        keyExtractor={keyExtractor}
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={styles.flatListContent}
+      />
+    );
+  }, [isLoading, keyExtractor, products, renderItem]);
+
   return (
     <>
       <BaseText style={styles.title}>TUS MOVIMIENTOS</BaseText>
       <View style={styles.card}>
-        <FlatList
-          data={products}
-          renderItem={renderItem}
-          keyExtractor={keyExtractor}
-          showsVerticalScrollIndicator={false}
-          contentContainerStyle={styles.flatListContent}
-        />
+        <Content />
       </View>
     </>
   );
@@ -41,6 +55,11 @@ const UserMovements = ({ products, onPress }: Props) => {
 export default memo(UserMovements);
 
 const styles = StyleSheet.create({
+  loading: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: 1,
+  },
   title: {
     color: colors.gray,
     fontWeight: '800',

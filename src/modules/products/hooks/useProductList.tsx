@@ -14,7 +14,7 @@ type ProductList = {
 };
 
 export const useProductList = () => {
-  const { data } = useGetAllProductsQuery();
+  const { data, isLoading } = useGetAllProductsQuery();
   const [productsList, setProductsList] = useState<ProductList>({
     list: [],
     isShowingAll: true,
@@ -55,6 +55,7 @@ export const useProductList = () => {
   }, [data]);
 
   return {
+    isLoading,
     productsList,
     showAllProducts,
     showNotRedeemedProducts,

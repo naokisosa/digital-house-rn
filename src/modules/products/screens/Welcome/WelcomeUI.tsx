@@ -7,7 +7,9 @@ import { Product } from '@services/types';
 import { firstLetterUpperCase } from '@utils';
 
 interface Props {
+  isLoading: boolean;
   isShowingAll: boolean;
+  month: string;
   onPressAll: () => void;
   onPressProduct: (id: string) => void;
   onPressSwapped: () => void;
@@ -17,7 +19,9 @@ interface Props {
 }
 
 const WelcomeUI = ({
+  isLoading,
   isShowingAll,
+  month,
   onPressAll,
   onPressProduct,
   onPressSwapped,
@@ -25,25 +29,33 @@ const WelcomeUI = ({
   products,
   totalPoints,
 }: Props) => {
-  const month = new Date().toLocaleDateString('es-ES', { month: 'long' });
   const ButtonsRow = useCallback(() => {
     if (isShowingAll) {
       return (
         <>
-          <Button title="Ganados" onPress={onPressWon} style={styles.button} />
-          <Button title="Canjeados" onPress={onPressSwapped} style={styles.button} />
+          <Button title="Ganados" onPress={onPressWon} style={styles.button} disabled={isLoading} />
+          <Button
+            title="Canjeados"
+            onPress={onPressSwapped}
+            style={styles.button}
+            disabled={isLoading}
+          />
         </>
       );
     }
     return <Button title="Todos" onPress={onPressAll} style={styles.button} />;
-  }, [isShowingAll, onPressAll, onPressSwapped, onPressWon]);
+  }, [isLoading, isShowingAll, onPressAll, onPressSwapped, onPressWon]);
 
   return (
     <ViewContainer>
       <BaseText style={styles.welcomeBack}>Bienvenido de vuelta!</BaseText>
       <BaseText style={styles.userName}>Ruben Rodriguez</BaseText>
-      <UserPoints month={firstLetterUpperCase(month)} totalPoints={totalPoints} />
-      <UserMovements products={products} onPress={onPressProduct} />
+      <UserPoints
+        month={firstLetterUpperCase(month)}
+        totalPoints={totalPoints}
+        isLoading={isLoading}
+      />
+      <UserMovements products={products} onPress={onPressProduct} isLoading={isLoading} />
       <View style={styles.footer}>
         <ButtonsRow />
       </View>
