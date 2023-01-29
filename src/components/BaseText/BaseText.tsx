@@ -1,5 +1,6 @@
 import { StyleSheet, Text as NativeText, TextProps as NativeTextProps } from 'react-native';
 import React from 'react';
+import { colors } from '@style';
 
 interface Props extends NativeTextProps {}
 
@@ -16,5 +17,6 @@ export default BaseText;
 const styles = StyleSheet.create({
   base: {
     fontFamily: 'Avenir',
+    color: colors.black,
   },
 });
