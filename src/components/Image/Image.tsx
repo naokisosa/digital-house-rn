@@ -1,5 +1,6 @@
-import { StyleSheet, Image as NativeImage, ImageSourcePropType, ViewStyle } from 'react-native';
+import { StyleSheet, ViewStyle } from 'react-native';
 import React from 'react';
+import FastImage, { Source } from 'react-native-fast-image';
 
 const IMAGE_PLACEHOLDER = require('@assets/placeholder.png');
 
@@ -7,7 +8,7 @@ type ImageSizes = 'big' | 'small';
 
 interface Props {
   size?: ImageSizes;
-  source?: ImageSourcePropType;
+  source?: Source;
   style?: ViewStyle;
 }
 
@@ -17,7 +18,13 @@ const IMAGE_SIZES = new Map<ImageSizes, number>([
 ]);
 
 const Image = ({ size = 'big', source = IMAGE_PLACEHOLDER, style }: Props) => {
-  return <NativeImage source={source} style={[styles.image(size), style]} />;
+  return (
+    <FastImage
+      source={source}
+      style={[styles.image(size), style]}
+      defaultSource={IMAGE_PLACEHOLDER}
+    />
+  );
 };
 
 export default Image;
