@@ -4,5 +4,5 @@ export type Product = {
   points: number;
   image: string;
   is_redemption: boolean;
-  id: number;
+  id: string;
 };

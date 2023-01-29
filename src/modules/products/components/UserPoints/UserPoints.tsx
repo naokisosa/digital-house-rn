@@ -1,14 +1,14 @@
 import { StyleSheet, View } from 'react-native';
-import React from 'react';
+import React, { memo } from 'react';
 import { BaseText } from '@components';
 import { colors } from '@style';
 
 interface Props {
   month: string;
-  totalPoints: string;
+  totalPoints?: number;
 }
 
-const UserPoints = ({ month, totalPoints }: Props) => {
+const UserPoints = ({ month, totalPoints = 0 }: Props) => {
   return (
     <>
       <BaseText style={styles.title}>TUS PUNTOS</BaseText>
@@ -20,7 +20,7 @@ const UserPoints = ({ month, totalPoints }: Props) => {
   );
 };
 
-export default UserPoints;
+export default memo(UserPoints);
 
 const styles = StyleSheet.create({
   title: {
