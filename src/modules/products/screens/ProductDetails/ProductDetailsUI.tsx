@@ -1,4 +1,4 @@
-import { Image, StyleSheet, View } from 'react-native';
+import { Image, ScrollView, StyleSheet, View } from 'react-native';
 import React, { useCallback } from 'react';
 import { BaseText, Button, ViewContainer } from '@components';
 import { colors } from '@style';
@@ -22,15 +22,18 @@ const ProductDetailsUI = ({ onPressBack, product }: Props) => {
 
   return (
     <ViewContainer header={<Header />} style={styles.container}>
-      <View style={styles.card}>
-        <Image source={{ uri: product?.image }} style={styles.image} />
-      </View>
-      <View style={styles.content}>
+      <ScrollView
+        style={styles.content}
+        showsVerticalScrollIndicator={false}
+        alwaysBounceVertical={false}>
+        <View style={styles.card}>
+          <Image source={{ uri: product?.image }} style={styles.image} />
+        </View>
         <BaseText style={styles.subtitle}>Detalles del producto:</BaseText>
         <BaseText style={styles.createdAt}>{product?.createdAt}</BaseText>
         <BaseText style={styles.subtitle}>Con esta compra acumulaste:</BaseText>
         <BaseText style={styles.points}>{`${product?.points} puntos`}</BaseText>
-      </View>
+      </ScrollView>
       <Button title="Aceptar" onPress={onPressBack} />
     </ViewContainer>
   );
